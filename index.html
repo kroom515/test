@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سطحتي</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+      background: linear-gradient(to bottom right, #f3f4f6, #d1d5db);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .main-header {
+      height: 100vh;
+      background: url("https://i.postimg.cc/7ZynJmvp/photo-5949323179149347093-y.jpg") no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .main-header h1 {
+      font-size: 3rem;
+    }
+
+    .cta-btn {
+      margin-top: 20px;
+      padding: 10px 25px;
+      font-size: 1.1rem;
+    }
+
+    .info-section {
+      padding: 60px 20px;
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #111827;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ شريط التنقل مع "تواصل معنا" -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">سطحتي</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ رأس الصفحة -->
+  <header class="main-header">
+    <div class="text-center">
+      <h1>اطلب سطحتك الان</h1>
+      <p class="lead">افضل منصة لنقل المركبات</p>
+      <a href="#contact" class="btn btn-primary cta-btn">تواصل معنا</a>
+    </div>
+  </header>
+
+  <!-- ✅ قسم الخدمات -->
+  <section id="services" class="info-section text-center">
+    <div class="container">
+      <h2 class="mb-5">خدماتنا</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\LENOVO\Downloads\سطحة1.png" class="card-img-top" alt="تأجير سيارات">
+            <div class="card-body">
+              <h5 class="card-title">نقل المركبات المعطلة و المصدومة</h5>
+              <p class="card-text">احصل على خدمة نقل المركبات المصدومة والمعطلة بافضل الاسعار واسرع وقت ممكن</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\LENOVO\Downloads\سطحة2.png" class="card-img-top" alt="دراجات نارية">
+            <div class="card-body">
+              <h5 class="card-title">نقل المركبات</h5>
+              <p class="card-text">احصل على خدمة نقل المركبات داخل احياء مدينة جدة بافضل الاسعار</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\LENOVO\Downloads\سطحة3.png" class="card-img-top" alt="مساعدة على الطريق">
+            <div class="card-body">
+              <h5 class="card-title">نقل المركبات الى مراكز تقدير معتمدة</h5>
+              <p class="card-text">احصل على خدمة نقل المركبات الى مراكز تقدير معتمدة بافضل الاسعار واسرع وقت ممكن</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ قسم التواصل -->
+  <section id="contact" class="info-section text-center bg-light">
+    <div class="container">
+      <h2 class="mb-4">تواصل معنا</h2>
+      <p class="mb-4">يسعدنا تواصلك معنا لأي استفسار أو خدمة</p>
+
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <!-- زر واتساب -->
+        <a href="https://wa.me/966501234567" target="_blank" class="btn btn-success">
+          <i class="bi bi-whatsapp"></i> واتساب
+        </a>
+
+        <!-- زر اتصال -->
+        <a href="tel:+966501234567" class="btn btn-primary">
+          <i class="bi bi-telephone"></i> اتصال
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ التذييل -->
+  <footer>
+    <p>جميع الحقوق محفوظة لدى سطحتي</p>
+  </footer>
+
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
